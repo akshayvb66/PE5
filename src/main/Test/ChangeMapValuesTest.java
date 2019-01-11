@@ -13,22 +13,21 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class ChangeMapValuesTest {
 
+    ChangeMapValues test;
+
     @Before
     public void setUp() throws Exception {
-        ChangeMapValues test = new ChangeMapValues();
+        test = new ChangeMapValues();
     }
 
     @After
     public void tearDown() throws Exception {
-        changeMapValues = null;
+        test = null;
     }
-
-    ChangeMapValues changeMapValues;
 
 
     @Test
     public void TestValueChange1() {
-        ChangeMapValues test = new ChangeMapValues();
 
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 
@@ -45,8 +44,6 @@ public class ChangeMapValuesTest {
     @Test
     public void TestValueChange2(){
 
-        ChangeMapValues test = new ChangeMapValues();
-
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 
         hm.put("val1", "Akshay");
@@ -62,7 +59,6 @@ public class ChangeMapValuesTest {
 
     @Test
     public void modifyFailure() {
-        ChangeMapValues test = new ChangeMapValues();
 
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 

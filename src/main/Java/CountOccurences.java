@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class CountTheCount {
+public class CountOccurences {
 
     public static void main(String[] args){
 
@@ -9,7 +9,7 @@ public class CountTheCount {
         System.out.println("enter the string");
         String s=scan.nextLine();
 
-        CountTheCount obj= new CountTheCount();
+        CountOccurences obj= new CountOccurences();
 
         System.out.println(obj.FindTheCounts(s));
     }

@@ -6,24 +6,21 @@ import java.util.HashMap;
 
 import static org.junit.Assert.*;
 
-public class CountTheStringTest {
+public class CheckForMultipleOccurenceTest {
+    CheckForMultipleOccurence test;
 
     @Before
     public void setUp() throws Exception {
-        CountTheString test= new CountTheString();
+        test= new CheckForMultipleOccurence();
     }
 
     @After
     public void tearDown() throws Exception {
-    countTheString = null;
+    test = null;
     }
-
-    CountTheString countTheString;
 
     @Test
     public void TestBoolean1() {
-        CountTheString test= new CountTheString();
-
         String  arr[] = {"a","b","c","e","a","c","c","d"};
 
         HashMap<String, Boolean> map = new HashMap<>();
@@ -39,7 +36,6 @@ public class CountTheStringTest {
     @Test
     public void BooleanTest2() {
 
-        CountTheString test= new CountTheString();
 
         String  arr[] = {"a","a","a","b","b","b","b","b","c","d"};
 
@@ -54,8 +50,6 @@ public class CountTheStringTest {
     }
     @Test
     public void StringBooleanFailure() {
-
-        CountTheString test= new CountTheString();
 
         String  arr[] = {"a","a","a","b","b","b","b","b","c"};
 

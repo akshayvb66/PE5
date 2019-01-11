@@ -12,30 +12,32 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class MainTestTest {
 
+    MainTest test;
+
     @Before
     public void setUp() throws Exception {
 
-        MainTest test = new MainTest();
+        test = new MainTest();
     }
 
     @After
     public void tearDown() throws Exception {
-        mainTest = null;
+        test = null;
     }
 
-    MainTest mainTest;
 
     @Test
     public void studentInfoTest() {
 
-        MainTest test = new MainTest();
 
         Student obj1 = new Student(111, "Akshay", 22);
         Student obj2 = new Student(112, "Naneeth", 20);
         Student obj3 = new Student(113, "Uday", 24);
         Student obj4 = new Student(114, "Gaurav", 10);
         Student obj5 = new Student(115, "Santosh", 22);
+
         List<Student> list = new ArrayList<Student>();
+
         list.add(obj1);
         list.add(obj2);
         list.add(obj3);

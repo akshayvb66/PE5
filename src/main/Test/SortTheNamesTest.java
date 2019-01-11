@@ -12,23 +12,21 @@ import static org.junit.Assert.*;
 @RunWith(JUnit4.class)
 public class SortTheNamesTest {
 
+    SortTheNames test;
+
     @Before
     public void setUp() throws Exception {
-       SortTheNames test = new SortTheNames();
+       test = new SortTheNames();
 
     }
 
     @After
     public void tearDown() throws Exception {
-        sortTheNames= null;
+        test= null;
     }
-
-    SortTheNames sortTheNames;
 
     @Test
     public void TestSorting1() {
-
-        SortTheNames test = new SortTheNames();
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");
@@ -47,7 +45,6 @@ public class SortTheNamesTest {
     }
     @Test
     public void TestSorting2() {
-        SortTheNames test = new SortTheNames();
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");
@@ -70,7 +67,6 @@ public class SortTheNamesTest {
     }
     @Test
     public void SortingFailure() {
-        SortTheNames test = new SortTheNames();
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");

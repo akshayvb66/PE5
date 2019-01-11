@@ -9,25 +9,23 @@ import java.util.HashMap;
 import static org.junit.Assert.*;
 
 @RunWith(JUnit4.class)
-public class CountTheCountTest {
+public class TestTotalOccurences {
+
+    CountOccurences test;
 
     @Before
     public void setUp() throws Exception {
-        CountTheCount test = new CountTheCount();
+        test = new CountOccurences();
     }
 
     @After
     public void tearDown() throws Exception {
-        countTheCount = null;
+        test = null;
     }
-
-    CountTheCount countTheCount;
 
     @Test
 
     public void CountTestSuccess() {
-
-        CountTheCount test = new CountTheCount();
 
         String str = "one one -one___two,,three,one @three*one?two";
 
@@ -45,8 +43,6 @@ public class CountTheCountTest {
 
         String str = "two one -two_two,,three,one @three*one?two@four";
 
-        CountTheCount test = new CountTheCount();
-
         HashMap<String, Integer> map = new HashMap<>();
 
         map.put("one", 3);
@@ -61,8 +57,6 @@ public class CountTheCountTest {
 
     @Test
     public void CountTestFailure() {
-
-        CountTheCount test = new CountTheCount();
 
         String str="one two three one two three one two three";
 

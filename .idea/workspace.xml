@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1115d462-f80f-4945-8d2b-3a0af55e25fb" name="Default Changelist" comment="" />
+    <list default="true" id="1115d462-f80f-4945-8d2b-3a0af55e25fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PE5/CountTheCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/PE5/CountTheCountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/CountTheCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/CountOccurences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Java/CountTheString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/CheckForMultipleOccurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/CountTheCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/TestTotalOccurences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/CountTheStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/CheckForMultipleOccurenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/MainTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/MainTestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Test/MainTestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="465">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/CountTheString.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/CheckForMultipleOccurence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +58,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Test/CountTheStringTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/CheckForMultipleOccurenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1395">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1941#1950#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/CountOccurences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/TestTotalOccurences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -57,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/Java/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#206#207#0" expanded="true" />
@@ -75,46 +131,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/StudentSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/ChangeMapValues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/SortTheNames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="900">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -129,6 +149,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -141,12 +164,15 @@
         <option value="$PROJECT_DIR$/src/main/Java/SortTheNames.java" />
         <option value="$PROJECT_DIR$/src/main/Java/CountTheString.java" />
         <option value="$PROJECT_DIR$/src/main/Test/CountTheStringTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java" />
         <option value="$PROJECT_DIR$/src/main/Test/CountTheCountTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java" />
         <option value="$PROJECT_DIR$/src/main/Java/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/CheckForMultipleOccurence.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/CheckForMultipleOccurenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java" />
         <option value="$PROJECT_DIR$/src/main/Test/MainTestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/Test/TestTotalOccurences.java" />
       </list>
     </option>
   </component>
@@ -155,6 +181,7 @@
     <option name="width" value="1112" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -201,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547142564254" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547180122677" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Pictures/hamcrest-core-1.3.jar!/" />
@@ -231,13 +258,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.All in PE5">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="PE5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All in PE5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE5" />
       <option name="PACKAGE_NAME" value="" />
@@ -246,49 +266,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTheNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTestTest" />
+      <option name="MAIN_CLASS_NAME" value="SortTheNamesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTestTest.studentInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTheNamesTest.TestSorting1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTestTest" />
-      <option name="METHOD_NAME" value="studentInfo" />
+      <option name="MAIN_CLASS_NAME" value="SortTheNamesTest" />
+      <option name="METHOD_NAME" value="TestSorting1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTestTest.studentInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortTheNamesTest.TestSorting2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE5" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainTestTest" />
-      <option name="METHOD_NAME" value="studentInfoTest" />
+      <option name="MAIN_CLASS_NAME" value="SortTheNamesTest" />
+      <option name="METHOD_NAME" value="TestSorting2" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTotalOccurences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTotalOccurences" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainTest" />
+      <item itemvalue="JUnit.SortTheNamesTest" />
+      <item itemvalue="JUnit.SortTheNamesTest.TestSorting2" />
+      <item itemvalue="JUnit.SortTheNamesTest.TestSorting1" />
+      <item itemvalue="JUnit.TestTotalOccurences" />
       <item itemvalue="JUnit.All in PE5" />
-      <item itemvalue="JUnit.MainTestTest" />
-      <item itemvalue="JUnit.MainTestTest.studentInfoTest" />
-      <item itemvalue="JUnit.MainTestTest.studentInfo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in PE5" />
-        <item itemvalue="JUnit.MainTestTest.studentInfoTest" />
-        <item itemvalue="JUnit.MainTestTest.studentInfo" />
-        <item itemvalue="JUnit.MainTestTest" />
-        <item itemvalue="Application.MainTest" />
+        <item itemvalue="JUnit.TestTotalOccurences" />
+        <item itemvalue="JUnit.SortTheNamesTest" />
+        <item itemvalue="JUnit.SortTheNamesTest.TestSorting1" />
+        <item itemvalue="JUnit.SortTheNamesTest.TestSorting2" />
       </list>
     </recent_temporary>
   </component>
@@ -306,35 +335,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTestTest - 2019.01.10 at 23h 09m 27s.xml">
+    <history-entry file="ArrayMoodifyTest_TestUpdateSuccess - 2019.01.11 at 09h 38m 45s.xml">
+      <configuration name="ArrayMoodifyTest.TestUpdateSuccess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayMoodifyTest - 2019.01.11 at 09h 39m 09s.xml">
+      <configuration name="ArrayMoodifyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeMapValuesTest - 2019.01.11 at 09h 39m 55s.xml">
+      <configuration name="ChangeMapValuesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTestTest - 2019.01.11 at 09h 40m 45s.xml">
       <configuration name="MainTestTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTestTest - 2019.01.10 at 23h 13m 21s.xml">
-      <configuration name="MainTestTest" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest - 2019.01.11 at 09h 42m 04s.xml">
+      <configuration name="SortTheNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTestTest_studentInfo - 2019.01.10 at 23h 14m 44s.xml">
-      <configuration name="MainTestTest.studentInfo" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest_TestSorting2 - 2019.01.11 at 09h 43m 19s.xml">
+      <configuration name="SortTheNamesTest.TestSorting2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTestTest_studentInfo - 2019.01.10 at 23h 15m 56s.xml">
-      <configuration name="MainTestTest.studentInfo" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest_TestSorting1 - 2019.01.11 at 09h 43m 24s.xml">
+      <configuration name="SortTheNamesTest.TestSorting1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTestTest_studentInfo - 2019.01.10 at 23h 16m 09s.xml">
-      <configuration name="MainTestTest.studentInfo" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest - 2019.01.11 at 09h 43m 38s.xml">
+      <configuration name="SortTheNamesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTestTest_studentInfo - 2019.01.10 at 23h 16m 40s.xml">
-      <configuration name="MainTestTest.studentInfo" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest_TestSorting1 - 2019.01.11 at 09h 44m 23s.xml">
+      <configuration name="SortTheNamesTest.TestSorting1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PE5 - 2019.01.10 at 23h 17m 10s.xml">
-      <configuration name="All in PE5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTestTest_studentInfoTest - 2019.01.10 at 23h 17m 33s.xml">
-      <configuration name="MainTestTest.studentInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTestTest_studentInfoTest - 2019.01.10 at 23h 18m 04s.xml">
-      <configuration name="MainTestTest.studentInfoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_PE5 - 2019.01.10 at 23h 19m 25s.xml">
-      <configuration name="All in PE5" configurationId="JUnit" />
+    <history-entry file="SortTheNamesTest - 2019.01.11 at 09h 44m 37s.xml">
+      <configuration name="SortTheNamesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,61 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/CountTheCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/CountTheCountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/CountTheString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/CountTheStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/ChangeMapValues.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -447,17 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/StudentSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -474,7 +445,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/Java/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#206#207#0" expanded="true" />
@@ -490,10 +461,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/CountOccurences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/CheckForMultipleOccurence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/ArrayMoodifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1941#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/CheckForMultipleOccurenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Test/MainTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state relative-caret-position="465">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/ChangeMapValuesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/SortTheNamesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Test/TestTotalOccurences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
         </state>
       </provider>
     </entry>

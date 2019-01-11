@@ -1,8 +1,7 @@
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-public class CountTheString {
+public class CheckForMultipleOccurence {
 
     public static void main(String[] args){
 
@@ -19,7 +18,7 @@ public class CountTheString {
         }
 
 
-        CountTheString obj = new CountTheString();
+        CheckForMultipleOccurence obj = new CheckForMultipleOccurence();
 
             System.out.println(obj.StringCount(str));
 
