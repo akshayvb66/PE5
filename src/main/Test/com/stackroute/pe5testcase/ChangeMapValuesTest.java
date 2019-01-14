@@ -29,7 +29,7 @@ public class ChangeMapValuesTest {
 
 
     @Test
-    public void TestValueChange1() {
+    public void testValueChange1() {
 
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 
@@ -41,10 +41,10 @@ public class ChangeMapValuesTest {
         res.put("val1"," ");
         res.put("val2","java");
 
-        assertEquals("Error",res, test.changevalues(hm)); }
+        assertEquals("Error",res, test.changeValues(hm)); }
 
     @Test
-    public void TestValueChange2(){
+    public void testValueChange2(){
 
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 
@@ -56,18 +56,18 @@ public class ChangeMapValuesTest {
         res.put("val1", " ");
         res.put("val2", "Akshay");
 
-        assertEquals("Error", res, test.changevalues(hm));
+        assertEquals("Error", res, test.changeValues(hm));
     }
 
     @Test
-    public void ModifyFailure() {
+    public void modifyFailure() {
 
         LinkedHashMap<String, String> hm = new LinkedHashMap<>();
 
         hm.put("val1", "Akshay");
         hm.put("val2", "Badiger");
 
-        assertNotNull("Error",test.changevalues(hm));
+        assertNotNull("Error",test.changeValues(hm));
 
     }
 

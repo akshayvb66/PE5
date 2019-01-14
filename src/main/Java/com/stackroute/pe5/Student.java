@@ -7,17 +7,13 @@
  */
 package com.stackroute.pe5;
 
-import java.util.Comparator;
-
 public class Student {
-
 
     private int id;
     private String name;
     private int age;
 
     public Student() {
-
     }
 
     public int getId() {

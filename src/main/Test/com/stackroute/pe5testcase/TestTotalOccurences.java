@@ -28,7 +28,7 @@ public class TestTotalOccurences {
 
     @Test
 
-    public void CountTestSuccess() {
+    public void countTestSuccess() {
 
         String str = "one one -one___two,,three,one @three*one?two";
 
@@ -42,7 +42,7 @@ public class TestTotalOccurences {
     }
 
     @Test
-    public void CountTestSuccess1() {
+    public void countTestSuccess1() {
 
         String str = "two one -two_two,,three,one @three*one?two@four";
 
@@ -59,7 +59,7 @@ public class TestTotalOccurences {
     }
 
     @Test
-    public void CountTestFailure() {
+    public void countTestFailure() {
 
         String str="one two three one two three one two three";
 

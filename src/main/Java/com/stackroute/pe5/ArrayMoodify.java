@@ -18,11 +18,13 @@ import java.util.ArrayList;
  */
 public class ArrayMoodify {
 
+    /*Updating the string*/
     public ArrayList<String> updateArray(ArrayList<String> string,String replacement,int index){
         string.remove(index);
         string.add(index,replacement);
         return string;}
 
+    /*Removing all the elements from the string list*/
     public ArrayList<String> removeList(ArrayList<String> string){
         string.removeAll(string);
         return string; }

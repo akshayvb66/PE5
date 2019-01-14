@@ -15,8 +15,11 @@ import java.util.*;
  *
  */
 public class ChangeMapValues {
-    public LinkedHashMap<String,String > changevalues(LinkedHashMap<String,String>inputmap){
-        Iterator itr = inputmap.entrySet().iterator();
+    public LinkedHashMap<String,String > changeValues(LinkedHashMap<String,String>input){
+
+        Iterator itr = input.entrySet().iterator();
+
+        /*Getting values from both keys*/
         Map.Entry m1 = (Map.Entry)itr.next();
         String key1=(String)m1.getKey();
         String value1=(String)m1.getValue();
@@ -25,9 +28,10 @@ public class ChangeMapValues {
         String key2=(String)m1.getKey();
         String value2=(String)m1.getValue();
 
+        /*Assigning value1 to key 2*/
         if(value1!=null) {
-            inputmap.put(key1," ");
-            inputmap.put(key2,value1);
+            input.put(key1," ");
+            input.put(key2,value1);
         }
-        return inputmap;}
+        return input;}
 }

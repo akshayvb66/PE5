@@ -31,7 +31,7 @@ public class MainTestTest {
 
 
     @Test
-    public void studentInfoTest() {
+    public void studentInfoTestSuccess() {
 
 
         Student obj1 = new Student(111, "Akshay", 22);
@@ -52,6 +52,29 @@ public class MainTestTest {
 
         assertEquals(list, ans);
         }
+
+    @Test
+    public void studentInfoTestFailure() {
+
+
+        Student obj1 = new Student(111, "Akshay", 22);
+        Student obj2 = new Student(112, "Naneeth", 20);
+        Student obj3 = new Student(113, "Uday", 24);
+        Student obj4 = new Student(114, "Gaurav", 10);
+        Student obj5 = new Student(115, "Santosh", 22);
+
+        List<Student> list = new ArrayList<Student>();
+
+        list.add(obj1);
+        list.add(obj2);
+        list.add(obj3);
+        list.add(obj4);
+        list.add(obj5);
+
+        List<Student> ans = test.sortStudents(list);
+
+        assertNotEquals(null, ans);
+    }
     }
 
 

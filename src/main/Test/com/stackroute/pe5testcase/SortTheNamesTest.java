@@ -29,7 +29,7 @@ public class SortTheNamesTest {
     }
 
     @Test
-    public void TestSorting1() {
+    public void testSorting1() {
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");
@@ -47,7 +47,7 @@ public class SortTheNamesTest {
         assertEquals("Error",arr,test.sortArray(set));
     }
     @Test
-    public void TestSorting2() {
+    public void testSorting2() {
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");
@@ -69,7 +69,7 @@ public class SortTheNamesTest {
         assertEquals("Error",arr,test.sortArray(set));
     }
     @Test
-    public void SortingFailure() {
+    public void sortingFailure() {
 
         HashSet<String> set=new HashSet<>();
         set.add("Alice");

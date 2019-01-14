@@ -8,7 +8,8 @@
 package com.stackroute.pe5;
 
 import java.util.*;
-/** This class takes the input string and sorts them in ascending order of alphabets
+/** Write a program to implement set interface which sorts the given randomly ordered names in
+ ascending order. Convert the sorted set in to an array list
  *
  *  @version 1.0 11-1-2018
  *
@@ -17,9 +18,14 @@ import java.util.*;
  */
 public class SortTheNames {
     public ArrayList<String> sortArray(HashSet<String> inputStr) {
-            Set<String> treeSet = new TreeSet<String>(inputStr);
-            Iterator<String> it=treeSet.iterator();
-            ArrayList<String>list1=new ArrayList<>();
+
+        /*Using sets to get a ordered input string*/
+        Set<String> treeSet = new TreeSet<String>(inputStr);
+
+        /*Using Iterator to loop through the collections*/
+        Iterator<String> it=treeSet.iterator();
+
+        ArrayList<String>list1=new ArrayList<>();
             while(it.hasNext()) {
                 list1.add(it.next()); }
             return list1; } }

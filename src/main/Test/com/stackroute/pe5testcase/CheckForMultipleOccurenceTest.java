@@ -23,7 +23,7 @@ public class CheckForMultipleOccurenceTest {
     }
 
     @Test
-    public void TestBoolean1() {
+    public void testBoolean1() {
         String  arr[] = {"a","b","c","e","a","c","c","d"};
 
         HashMap<String, Boolean> map = new HashMap<>();
@@ -37,7 +37,7 @@ public class CheckForMultipleOccurenceTest {
         assertEquals("Error",map,test.stringCount(arr));
     }
     @Test
-    public void BooleanTest2() {
+    public void booleanTest2() {
 
 
         String  arr[] = {"a","a","a","b","b","b","b","b","c","d"};
@@ -52,7 +52,7 @@ public class CheckForMultipleOccurenceTest {
         assertEquals("Error",map,test.stringCount(arr));
     }
     @Test
-    public void StringBooleanFailure() {
+    public void stringBooleanFailure() {
 
         String  arr[] = {"a","a","a","b","b","b","b","b","c"};
 
