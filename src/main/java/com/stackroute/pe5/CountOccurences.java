@@ -17,10 +17,10 @@ import java.util.HashMap;
  *
  */
 public class CountOccurences {
-    public HashMap<String, Integer> findTheCounts(String input) {
+    public HashMap<String, Integer> findTheCounts(String inputString) {
 
         /*Removing all the special character using removeall*/
-        String result = input.replaceAll("[-+.^:,@___<>*?_]", " ");
+        String result = inputString.replaceAll("[-+.^:,@___<>*?_]", " ");
 
         HashMap<String, Integer> find = new HashMap<>();
 

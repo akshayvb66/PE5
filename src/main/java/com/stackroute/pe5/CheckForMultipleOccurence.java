@@ -20,16 +20,16 @@ import java.util.HashMap;
 
 public class CheckForMultipleOccurence {
 
-    public HashMap<String, Boolean> stringCount(String[] str) {
+    public HashMap<String, Boolean> stringCount(String[] inputString) {
 
         HashMap<String, Boolean> count = new HashMap<>();
 
         /*Using map to assign true or false based on their occurences*/
-        for (int i = 0; i < str.length; i++) {
-            if (count.containsKey(str[i])) {
-                count.put(str[i], true);
+        for (int i = 0; i < inputString.length; i++) {
+            if (count.containsKey(inputString[i])) {
+                count.put(inputString[i], true);
             } else
-                count.put(str[i], false);}
+                count.put(inputString[i], false);}
 
         count.remove("");
         return count; }

@@ -28,7 +28,7 @@ import java.util.List;
 public class MainTest {
     public List<Student> sortStudents(List<Student> students) {
 
-        String str="";
+        String string="";
 
         /*Sorting the students using StudentSorter*/
         Collections.sort(students,new StudentSorter());
